@@ -33,3 +33,9 @@ docker run -v /home/user/samples:/samples -e SONAR_HOST='<https://my-sonar-host:
 ```
 **NOTE**: If the image is to be used on GitHub or GitLab pipeline, mounting the source code path is unnecessary.
 
+## Donwload image from DockerHub
+
+If you do not want to build the image, you can download the image from DockerHub.
+
+[ivanamat/sonarscanner-net](https://hub.docker.com/r/ivanamat/sonarscanner-net)
+
